@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import heroImage from "../assets/hazem-pic.webp";
 import cvFile from "../assets/Hazem-CV.pdf";
 import reactLogo from "../assets/logos/React-icon.svg";
@@ -52,6 +53,11 @@ const contactItems = [
     href: "https://www.linkedin.com/in/hazem-ismail-219134272/",
   },
   { name: "WhatsApp", icon: faWhatsapp, href: "https://wa.me/201017573550" },
+  {
+    name: "Email",
+    icon: faEnvelope,
+    href: "mailto:hazemmelaskry@gmail.com",
+  },
 ];
 
 function Portfolio() {
