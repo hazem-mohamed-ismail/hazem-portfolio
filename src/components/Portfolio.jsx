@@ -41,9 +41,17 @@ const skills = [
 ];
 
 const contactItems = [
-  { name: "GitHub", icon: faGithub, href: "https://github.com/hazem-mohamed-ismail" },
-  { name: "LinkedIn", icon: faLinkedin, href: "https://www.linkedin.com/in/hazem-ismail-219134272/" },
-  { name: "WhatsApp", icon: faWhatsapp, href: "https://wa.me/+201017573550" },
+  {
+    name: "GitHub",
+    icon: faGithub,
+    href: "https://github.com/hazem-mohamed-ismail",
+  },
+  {
+    name: "LinkedIn",
+    icon: faLinkedin,
+    href: "https://www.linkedin.com/in/hazem-ismail-219134272/",
+  },
+  { name: "WhatsApp", icon: faWhatsapp, href: "https://wa.me/201017573550" },
 ];
 
 function Portfolio() {
@@ -162,9 +170,7 @@ function Portfolio() {
           <Container>
             <p className="section-label">My Skills</p>
             <h2>What I can do</h2>
-            <Row className="g-4 skills-row">
-              {skillsCards}
-            </Row>
+            <Row className="g-4 skills-row">{skillsCards}</Row>
           </Container>
         </section>
 
