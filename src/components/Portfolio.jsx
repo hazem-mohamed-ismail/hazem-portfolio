@@ -195,30 +195,30 @@ function Portfolio() {
               </Button>
             </div>
             <Row className="g-4 projects-row">
-              <Col md={6} lg={4}>
+              <Col md={6} lg={4} className="mx-auto">
                 <Card className="project-card h-100">
                   <div className="project-preview project-preview-purple">
                     <img
-                      src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=900&q=85"
+                      src="/src/assets/project-pic.png"
                       alt="Ahuse project preview"
                     />
                   </div>
                   <Card.Body>
-                    <Card.Title>Ahuse</Card.Title>
+                    <Card.Title>E-Commerce Website</Card.Title>
                     <Card.Text>
                       A responsive landing page for a property service with a
                       clear and welcoming user experience.
                     </Card.Text>
                     <div className="project-links">
                       <a
-                        href="https://example.com"
+                        href="https://value-clothes-e-commerce-prj.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
                         Live Demo <NorthEastIcon fontSize="small" />
                       </a>
                       <a
-                        href="https://github.com/"
+                        href="https://github.com/hazem-mohamed-ismail/value-clothes-ecommerce"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -228,72 +228,7 @@ function Portfolio() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col md={6} lg={4}>
-                <Card className="project-card h-100">
-                  <div className="project-preview project-preview-blue">
-                    <img
-                      src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=85"
-                      alt="App Dashboard project preview"
-                    />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>App Dashboard</Card.Title>
-                    <Card.Text>
-                      A dashboard interface that organizes important information
-                      and makes data easier to understand.
-                    </Card.Text>
-                    <div className="project-links">
-                      <a
-                        href="https://example.com"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Live Demo <NorthEastIcon fontSize="small" />
-                      </a>
-                      <a
-                        href="https://github.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Code / GitHub <GitHubIcon fontSize="small" />
-                      </a>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col md={6} lg={4}>
-                <Card className="project-card h-100">
-                  <div className="project-preview project-preview-grey">
-                    <img
-                      src="https://images.unsplash.com/photo-1512917774080-9991f1c4c6d2?auto=format&fit=crop&w=900&q=85"
-                      alt="Easy Rentn project preview"
-                    />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>Easy Rentn</Card.Title>
-                    <Card.Text>
-                      A simple rental web application focused on easy browsing
-                      and a straightforward booking flow.
-                    </Card.Text>
-                    <div className="project-links">
-                      <a
-                        href="https://example.com"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Live Demo <NorthEastIcon fontSize="small" />
-                      </a>
-                      <a
-                        href="https://github.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Code / GitHub <GitHubIcon fontSize="small" />
-                      </a>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
+              
             </Row>
           </Container>
         </section>
