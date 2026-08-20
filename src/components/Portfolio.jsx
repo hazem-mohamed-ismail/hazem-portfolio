@@ -62,7 +62,7 @@ const contactItems = [
 
 function Portfolio() {
   const skillsCards = skills.map((skill) => (
-    <Col key={skill.name} md={6} lg={3}>
+    <Col key={skill.name}  xs={6} lg={3}>
       <Card className="skill-card h-100">
         <Card.Body>
           <div className="skill-icon">
