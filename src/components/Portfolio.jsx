@@ -7,7 +7,7 @@ import {
   Navbar,
   Row,
 } from "react-bootstrap";
-import projectImg from "/assets/project-pic.png";
+import projectImg from "../assets/project-pic.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import NorthEastIcon from "@mui/icons-material/NorthEast";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -198,7 +198,7 @@ function Portfolio() {
             <Row className="g-4 projects-row">
               <Col md={6} lg={4} className="mx-auto">
                 <Card className="project-card h-100">
-                  <div className="project-preview project-preview-purple">
+                  <div className="project-preview">
                     <img
                       src={projectImg}
                       alt="E-Commerce Website"
