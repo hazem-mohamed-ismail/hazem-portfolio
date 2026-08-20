@@ -1,50 +1,12 @@
-import {
-  Button,
-  Card,
-  Col,
-  Container,
-  Nav,
-  Navbar,
-  Row,
-} from "react-bootstrap";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import NorthEastIcon from "@mui/icons-material/NorthEast";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
-import heroImage from "../assets/hazem-pic.webp";
-import cvFile from "../assets/Hazem-CV.pdf";
-import reactLogo from "../assets/logos/React-icon.svg";
-import muiLogo from "../assets/logos/mui-.svg";
-import javascriptLogo from "../assets/logos/javascript-logo.svg";
-import ReactBootstrap from "../assets/logos/react-bootstrap.svg";
-import htmlLogo from "../assets/logos/html5.svg";
-import githubLogo from "../assets/logos/github.svg";
-import gitLogo from "../assets/logos/git.svg";
-import cssLogo from "../assets/logos/css.svg";
-import bootstrapLogo from "../assets/logos/Bootstrap.svg";
-import "./Portfolio.css";
-
-const skills = [
-  { name: "HTML5", icon: htmlLogo },
-  { name: "CSS", icon: cssLogo },
-  { name: "JavaScript", icon: javascriptLogo },
-  { name: "React", icon: reactLogo },
-  { name: "MUI", icon: muiLogo },
-  { name: "React Bootstrap", icon: ReactBootstrap },
-  { name: "Bootstrap", icon: bootstrapLogo },
-  { name: "Git", icon: gitLogo },
-  { name: "GitHub", icon: githubLogo },
-];
-
-const contactItems = [
-  { name: "GitHub", icon: faGithub, href: "https://github.com/hazem-mohamed-ismail" },
-  { name: "LinkedIn", icon: faLinkedin, href: "https://www.linkedin.com/in/hazem-ismail-219134272/" },
-  { name: "WhatsApp", icon: faWhatsapp, href: "https://wa.me/+201017573550" },
-];
+import { Button, Card, Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
+import CodeIcon from '@mui/icons-material/Code'
+import StorageIcon from '@mui/icons-material/Storage'
+import BrushIcon from '@mui/icons-material/Brush'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import NorthEastIcon from '@mui/icons-material/NorthEast'
+import heroImage from '../assets/hazem-pic.png'
+import cvFile from '../assets/Hazem-CV.pdf'
+import './Portfolio.css'
 
 function Portfolio() {
   const skillsCards = skills.map((skill) => (
