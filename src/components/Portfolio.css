@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    min-width: 320px;
+    background-color: #fbfaf8;
+    color: #202026;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+.portfolio-page {
+    overflow: hidden;
+}
+
+.portfolio-navbar {
+    padding: 18px 0;
+    border-bottom: 1px solid #e4e1df;
+    background-color: #fbfaf8;
+}
+
+.portfolio-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.brand-symbol {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #7055ee;
+    text-align: center;
+    line-height: 30px;
+}
+
+.portfolio-navigation {
+    gap: 20px;
+    font-weight: bold;
+}
+
+.portfolio-navigation .nav-link {
+    color: #666;
+}
+
+.portfolio-navigation .nav-link:hover,
+.portfolio-navigation .active {
+    color: #7055ee;
+}
+
+.primary-button,
+.github-button {
+    border: 0;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+
+
+
+.hero-section {
+    padding: 100px 0;
+    background-color: #f4f0ff;
+}
+
+
+h1,
+h2 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+h1 {
+    max-width: 600px;
+    font-size: 68px;
+    line-height: 1;
+}
+
+h1 span {
+    color: #7055ee;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 1.1;
+}
+
+.hero-description {
+    max-width: 520px;
+    margin: 25px 0;
+    color: #666;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.primary-button {
+    padding: 13px 18px;
+    background-color: #7055ee;
+}
+
+.primary-button:hover {
+    background-color: #5c43d4;
+}
+
+
+.hero-image-column,
+.about-image-column {
+    text-align: center;
+}
+
+.hero-image-container {
+    position: relative;
+    display: inline-block;
+    padding: 20px 0 0 0;
+    border-radius: 100px 0 50px 0;
+    background-color: #d7f0f1;
+    
+}
+
+.profile-image-placeholder {
+    width: 380px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 18px 18px 0 0;
+}
+
+.profile-image-placeholder img {
+    display: block;
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.decorative-star {
+    position: absolute;
+    z-index: 2;
+    color: #7055ee;
+    font-size: 30px;
+    animation-name: Stars;
+    animation-duration: 5s;
+  animation-iteration-count: infinite;
+      animation-timing-function: linear;
+
+}
+
+@keyframes Stars {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    25%{
+        transform: rotate(90deg)  scale(1.4);
+    }
+    50%{
+        transform: rotate(180deg)  scale(1.8);
+    }
+    75%{
+        transform: rotate(270deg)  scale(1.4);
+    }
+    100%{
+        transform: rotate(360deg)  scale(1);
+    }
+}
+
+.star-one {
+    top: 10px;
+    left: -25px;
+    color: #087d77;
+}
+
+.star-two {
+    top: 15px;
+    right: -25px;
+}
+
+.portfolio-section {
+    padding: 100px 0;
+}
+
+.about-section {
+    background-color: #fff;
+}
+
+.about-image-container {
+    display: inline-block;
+    padding: 15px;
+    background-color: #8065ed;
+}
+
+.about-image-container img {
+    display: block;
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 650px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.skills-section,
+.projects-section {
+    background-color: #f7f7f7;
+}
+
+.skills-row,
+.projects-row {
+    margin-top: 25px;
+}
+
+.skill-card,
+.project-card {
+    height: 100%;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.skill-card .card-body,
+.project-card .card-body {
+    padding: 24px;
+}
+
+.skill-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 22px;
+    color: #087d77;
+    background-color: #eef8f7;
+}
+
+.skill-icon svg {
+    font-size: 30px;
+}
+
+.skill-card .card-title,
+.project-card .card-title {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-card .card-text,
+.project-card .card-text {
+    color: #666;
+    line-height: 1.7;
+}
+
+.projects-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.github-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 17px;
+    background-color: #e52e6b;
+}
+
+.github-button:hover {
+    background-color: #c82258;
+}
+
+.project-preview {
+    padding: 15px;
+}
+
+.project-preview img {
+    display: block;
+    width: 100%;
+    height: 205px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.project-preview-purple {
+    background-color: #bca6f5;
+}
+
+.project-preview-blue {
+    background-color: #d0d4fa;
+}
+
+.project-preview-grey {
+    background-color: #dedfdf;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.project-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: #202026;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    color: #087d77;
+}
+
+.portfolio-footer {
+    padding: 24px 0;
+    color: #aaa;
+    background-color: #202026;
+    font-size: 13px;
+}
+
+.portfolio-footer .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.portfolio-footer span:first-child {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .portfolio-navigation {
+        gap: 0;
+        margin: 18px 0 !important;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .hero-section,
+    .portfolio-section {
+        padding: 70px 0;
+    }
+
+    .hero-buttons,
+    .projects-heading,
+    .portfolio-footer .container {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .profile-image-placeholder {
+        width: 280px;
+    }
+
+    .profile-image-placeholder img {
+        height: 330px;
+    }
+
+    .about-image-container img {
+        width: 250px;
+        height: 300px;
+    }
+}
