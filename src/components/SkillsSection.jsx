@@ -25,6 +25,7 @@ function SkillsSection() {
   return (
     <section id="skills" className="portfolio-section skills-section">
       <Container>
+        <p className="section-label">My Skills</p>
         <h2>My Skills</h2>
         <Row className="g-4 skills-row">
           {skills.map((skill) => (
