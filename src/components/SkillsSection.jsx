@@ -25,7 +25,12 @@ function SkillsSection() {
   return (
     <section id="skills" className="portfolio-section skills-section">
       <Container>
+<<<<<<< HEAD
         <h2>My Skills</h2>
+=======
+        <p className="section-label">My Skills</p>
+        <h2>What I can do</h2>
+>>>>>>> 11fb480c9175b18738f8d43e880c7b88e79deffc
         <Row className="g-4 skills-row">
           {skills.map((skill) => (
             <Col key={skill.name} xs={6} lg={3}>
