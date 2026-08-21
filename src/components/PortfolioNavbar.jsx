@@ -11,7 +11,7 @@ function PortfolioNavbar() {
         <Navbar.Toggle aria-controls="portfolio-navigation" />
         <Navbar.Collapse id="portfolio-navigation">
           <Nav className="portfolio-navigation ms-auto">
-            <Nav.Link href="#home" className="active">
+            <Nav.Link href="#home">
               Home
             </Nav.Link>
             <Nav.Link href="#about">About Me</Nav.Link>
