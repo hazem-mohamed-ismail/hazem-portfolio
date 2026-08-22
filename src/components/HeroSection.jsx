@@ -8,11 +8,20 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import heroImage from "../assets/hazem-pic.webp";
+import reactLogo from "../assets/logos/React-icon.svg";
 import cvFile from "../assets/Hazem-CV.pdf";
 
 const contactItems = [
-  { name: "GitHub", icon: faGithub, href: "https://github.com/hazem-mohamed-ismail" },
-  { name: "LinkedIn", icon: faLinkedin, href: "https://www.linkedin.com/in/hazem-ismail-219134272/" },
+  {
+    name: "GitHub",
+    icon: faGithub,
+    href: "https://github.com/hazem-mohamed-ismail",
+  },
+  {
+    name: "LinkedIn",
+    icon: faLinkedin,
+    href: "https://www.linkedin.com/in/hazem-ismail-219134272/",
+  },
   { name: "WhatsApp", icon: faWhatsapp, href: "https://wa.me/201017573550" },
   { name: "Email", icon: faEnvelope, href: "mailto:hazemmelaskry@gmail.com" },
 ];
@@ -33,18 +42,33 @@ function HeroSection() {
           </Col>
           <Col lg={6}>
             <p className="section-label">Hello, I&apos;m Hazem</p>
-            <h1>Front-End <span>Developer</span></h1>
+            <h1>
+              Front-End <span>Developer</span>
+            </h1>
             <p className="hero-description">
-              I build clean, responsive, and user-friendly websites with React and modern front-end technologies.
+              I build clean, responsive, and user-friendly websites with{" "}
+              <img src={reactLogo} alt="React" className="react-logo" /> React
+              and modern front-end technologies.
             </p>
             <div className="hero-buttons">
-              <Button href={cvFile} download="Hazem-CV.pdf" className="primary-button">
+              <Button
+                href={cvFile}
+                download="Hazem-CV.pdf"
+                className="primary-button"
+              >
                 Download CV <NorthEastIcon fontSize="small" />
               </Button>
             </div>
             <div className="contact-links">
               {contactItems.map((contact) => (
-                <a key={contact.name} href={contact.href} target="_blank" rel="noreferrer" className="contact-link" aria-label={contact.name}>
+                <a
+                  key={contact.name}
+                  href={contact.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="contact-link"
+                  aria-label={contact.name}
+                >
                   <FontAwesomeIcon icon={contact.icon} />
                 </a>
               ))}
