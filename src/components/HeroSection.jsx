@@ -9,6 +9,7 @@ import {
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import heroImage from "../assets/hazem-pic.webp";
 import reactLogo from "../assets/logos/React-icon.svg";
+import jsLogo from "../assets/logos/javascript-logo.svg";
 import cvFile from "../assets/Hazem-CV.pdf";
 
 const contactItems = [
@@ -33,8 +34,8 @@ function HeroSection() {
         <Row className="align-items-center gy-5">
           <Col lg={6} className="hero-image-column">
             <div className="hero-image-container">
-              <span className="decorative-star star-one">✦</span>
-              <span className="decorative-star star-two">✦</span>
+              <span className="hero-icon hero-react-icon"><img src={reactLogo} alt="React JS" /></span>
+              <span className="hero-icon hero-js-icon"><img src={jsLogo} alt="JavaScript" /></span>
               <div className="profile-image-placeholder">
                 <img src={heroImage} alt="Professional profile placeholder" />
               </div>

@@ -173,49 +173,56 @@ h2 {
     right: 0;
 }
 
-.decorative-star {
+.hero-icon {
     position: absolute;
     z-index: 2;
     color: #7055ee;
     font-size: 30px;
-    animation-name: Stars;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-
 }
 
-@keyframes Stars {
-    0% {
-        transform: rotate(0deg) scale(1);
-    }
-
-    25% {
-        transform: rotate(90deg) scale(1.4);
-    }
-
-    50% {
-        transform: rotate(180deg) scale(1.8);
-    }
-
-    75% {
-        transform: rotate(270deg) scale(1.4);
-    }
-
-    100% {
-        transform: rotate(360deg) scale(1);
-    }
+.hero-icon img {
+    display: block;
+    width: 50px;
+    height: 50px;
 }
 
-.star-one {
+/* React icon: infinite 360deg rotation */
+.hero-react-icon {
     top: 10px;
     left: 10px;
     color: #087d77;
+    animation: reactSpin 6s linear infinite;
 }
 
-.star-two {
+@keyframes reactSpin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* JavaScript icon: smooth slow floating (up and down) */
+.hero-js-icon {
     top: 80px;
     right: -25px;
+    animation: jsFloat 4s ease-in-out infinite;
+}
+
+@keyframes jsFloat {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .portfolio-section {
