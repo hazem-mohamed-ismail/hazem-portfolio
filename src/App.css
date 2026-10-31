@@ -30,8 +30,8 @@ body {
 
 .brand-symbol {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-right: 7px;
     border-radius: 7px;
     color: #fff;
@@ -87,7 +87,7 @@ h1 span {
 }
 
 h2 {
-    font-size: 46px;
+    font-size: 42px;
     line-height: 1.1;
 }
 
@@ -233,6 +233,15 @@ h2 {
     background-color: #fff;
 }
 
+.about-section .section-label {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.about-section h2 {
+    font-size: 24px;
+}
+
 .about-text {
     max-width: 650px;
     color: #666;
@@ -242,6 +251,10 @@ h2 {
 .skills-section,
 .projects-section {
     background-color: #f7f7f7;
+}
+
+.skills-section h2 {
+    font-weight: 700;
 }
 
 .skills-row,
