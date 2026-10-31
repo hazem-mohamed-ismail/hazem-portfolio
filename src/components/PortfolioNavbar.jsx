@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 
 function PortfolioNavbar() {
   const [expanded, setExpanded] = useState(false);
@@ -19,7 +19,7 @@ function PortfolioNavbar() {
       <Container>
         <Navbar.Brand href="#home" className="portfolio-brand d-flex align-items-center">
           <img src={logo} alt="Hazem Mohamed logo" className="brand-symbol" />
-          <span className="brand-name">Hazem Mohamed</span>
+          <span className="px-2 brand-name">Hazem Mohamed</span>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="portfolio-navigation" />
