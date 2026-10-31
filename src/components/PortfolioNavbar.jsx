@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import logo from "../assets/logo.png";
 
 function PortfolioNavbar() {
   const [expanded, setExpanded] = useState(false);
@@ -16,9 +17,9 @@ function PortfolioNavbar() {
       onToggle={setExpanded}
     >
       <Container>
-        <Navbar.Brand href="#home" className="portfolio-brand">
-          <span className="brand-symbol">H</span>
-          Hazem Mohamed
+        <Navbar.Brand href="#home" className="portfolio-brand d-flex align-items-center">
+          <img src={logo} alt="Hazem Mohamed logo" className="brand-symbol" />
+          <span className="brand-name">Hazem Mohamed</span>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="portfolio-navigation" />
