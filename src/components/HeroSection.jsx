@@ -20,7 +20,7 @@ const contactItems = [
   {
     name: "LinkedIn",
     icon: faLinkedin,
-    href: "https://www.linkedin.com/in/hazem-ismail-219134272/",
+    href: "https://www.linkedin.com/in/hazem-mohamed-ismail-219134272/",
   },
   { name: "WhatsApp", icon: faWhatsapp, href: "https://wa.me/201017573550" },
   { name: "Email", icon: faEnvelope, href: "mailto:hazemmelaskry@gmail.com" },
