@@ -7,12 +7,9 @@ function AboutSection() {
         <Row className="align-items-center gy-5">
           <Col lg={8} className="mx-auto">
             <p className="section-label">About Me</p>
-            <h2>Turning ideas into useful experiences.</h2>
+            <h2>Front-end developer, growing into MERN stack.</h2>
             <p className="about-text">
-              I am a Front-End Developer who enjoys transforming ideas and designs into practical digital products. I focus on writing organized code and creating interfaces that are simple for people to understand and use.
-            </p>
-            <p className="about-text">
-              I am always learning new tools, improving my skills, and looking for better ways to solve problems. My goal is to build websites that look professional, work smoothly, and provide a good experience on every device.
+              I'm a third-year student and a front-end developer focused on React. I'm currently learning backend development with Node.js, Express, and MongoDB to become a MERN stack developer, and I'm looking for my first junior role in Cairo.
             </p>
           </Col>
         </Row>
