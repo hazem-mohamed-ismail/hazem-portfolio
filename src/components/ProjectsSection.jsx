@@ -10,7 +10,12 @@ function ProjectsSection() {
         <p className="section-label">Featured Work</p>
         <div className="projects-heading">
           <h2>My Projects</h2>
-          <Button href="https://github.com/" target="_blank" rel="noreferrer" className="github-button">
+          <Button
+            href="https://github.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="github-button"
+          >
             <GitHubIcon fontSize="small" /> Visit GitHub
           </Button>
         </div>
@@ -23,13 +28,23 @@ function ProjectsSection() {
               <Card.Body>
                 <Card.Title>E-Commerce Website</Card.Title>
                 <Card.Text>
-                  A responsive landing page for a property service with a clear and welcoming user experience.
+                  A responsive clothing e-commerce store built with React,
+                  featuring product filtering by category and price, a shopping
+                  cart, and a product details page.
                 </Card.Text>
                 <div className="project-links">
-                  <a href="https://value-clothes-e-commerce-prj.vercel.app/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://value-clothes-e-commerce-prj.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Live Demo <NorthEastIcon fontSize="small" />
                   </a>
-                  <a href="https://github.com/hazem-mohamed-ismail/value-clothes-ecommerce" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/hazem-mohamed-ismail/value-clothes-ecommerce"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Code / GitHub <GitHubIcon fontSize="small" />
                   </a>
                 </div>
