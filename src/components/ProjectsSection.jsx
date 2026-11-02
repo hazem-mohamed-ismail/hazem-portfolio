@@ -11,7 +11,7 @@ function ProjectsSection() {
         <div className="projects-heading">
           <h2>My Projects</h2>
           <Button
-            href="https://github.com/"
+            href="https://github.com/hazem-mohamed-ismail"
             target="_blank"
             rel="noreferrer"
             className="github-button"
