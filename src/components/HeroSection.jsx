@@ -55,7 +55,7 @@ function HeroSection() {
               <Button
                 href={cvFile}
                 download="Hazem-CV.pdf"
-                className="primary-button"
+                className="primary-button rounded-5"
               >
                 Download CV <NorthEastIcon fontSize="small" />
               </Button>
